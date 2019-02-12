@@ -10,15 +10,27 @@ import UIKit
 
 class TracksTableViewCell: UITableViewCell {
 
+    // MARK : - Outlets
+    @IBOutlet weak var trackImage : UIImageView!
+    @IBOutlet weak var trackArtist : UILabel!
+    @IBOutlet weak var trackTitle: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        self.backgroundColor = .clear
     }
     
+    override func prepareForReuse() {
+        trackImage.image = UIImage()
+    }
+    
+    public var cellTrack: Track! {
+        didSet {
+            self.trackImage.clipsToBounds = true
+            self.trackImage.layer.cornerRadius = 3
+            self.trackImage.loadImage(fromURL: cellTrack.trackArtWork)
+            self.trackTitle.text = cellTrack.name
+            self.trackArtist.text = cellTrack.artist
+        }
+    }
 }
