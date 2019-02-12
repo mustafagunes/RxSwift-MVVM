@@ -40,6 +40,6 @@ class TracksTableViewVC: UIViewController {
                     cell.alpha = 1
                     cell.layer.transform = CATransform3DIdentity
                 }, completion: nil)
-            })).disposed(by: disposeBag)
+        })).disposed(by: disposeBag)
     }
 }
