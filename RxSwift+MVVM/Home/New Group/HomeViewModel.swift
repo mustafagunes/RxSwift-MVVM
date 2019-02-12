@@ -26,7 +26,7 @@ class HomeViewModel {
     public func requestData(){
         self.loading.onNext(true)
         
-        APIManager.requestData(url: "96169aa4b23d4caf887dc90b783ed2a5/raw/452449880adcc7c99550431ff387b21fb93ac502/RxSwift+MVVM.json", method: .get, parameters: nil, completion: { (result) in
+        APIManager.requestData(url: "96169aa4b23d4caf887dc90b783ed2a5/raw/af9c78c304586b1232333f4be7ce72b414641e5c/RxSwift+MVVM.json", method: .get, parameters: nil, completion: { (result) in
             self.loading.onNext(false)
             switch result {
             case .success(let returnJson):

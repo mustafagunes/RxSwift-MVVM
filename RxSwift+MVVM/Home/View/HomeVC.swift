@@ -55,6 +55,10 @@ class HomeVC: UIViewController {
         homeViewModel.requestData()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+    }
+    
     /// Bindings
     private func setupBindings() {
         // binding loading to vc
