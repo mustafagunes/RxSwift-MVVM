@@ -172,6 +172,7 @@ extension UIView {
         self.isUserInteractionEnabled = true
         self.tapGestureRecognizerAction = action
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
+        self.addGestureRecognizer(tapGestureRecognizer)
     }
     
     // Every time the user taps on the UIImageView, this function gets called,
@@ -222,37 +223,3 @@ public extension UIImageView {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

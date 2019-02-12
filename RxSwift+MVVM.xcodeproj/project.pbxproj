@@ -18,6 +18,16 @@
 		E1952D1D2212BBF700735D4B /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D1C2212BBF700735D4B /* Extensiones.swift */; };
 		E1952D1F2212BC0600735D4B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D1E2212BC0600735D4B /* Network.swift */; };
 		E1952D212212BC1800735D4B /* ReactiveExtensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D202212BC1800735D4B /* ReactiveExtensiones.swift */; };
+		E1952D282212C52200735D4B /* TracksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D262212C52200735D4B /* TracksTableViewCell.swift */; };
+		E1952D292212C52200735D4B /* TracksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1952D272212C52200735D4B /* TracksTableViewCell.xib */; };
+		E1952D2C2212C53900735D4B /* AlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D2A2212C53900735D4B /* AlbumsCollectionViewCell.swift */; };
+		E1952D2D2212C53900735D4B /* AlbumsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1952D2B2212C53900735D4B /* AlbumsCollectionViewCell.xib */; };
+		E1952D302212C58A00735D4B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D2E2212C58A00735D4B /* LoadingView.swift */; };
+		E1952D312212C58A00735D4B /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1952D2F2212C58A00735D4B /* LoadingView.xib */; };
+		E1952D342212C5A000735D4B /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D322212C5A000735D4B /* MessageView.swift */; };
+		E1952D352212C5A000735D4B /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1952D332212C5A000735D4B /* MessageView.xib */; };
+		E1952D372212C5CD00735D4B /* AnimateLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D362212C5CD00735D4B /* AnimateLoadingView.swift */; };
+		E1952D392212C5E600735D4B /* LoadingViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D382212C5E600735D4B /* LoadingViewable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +46,16 @@
 		E1952D1C2212BBF700735D4B /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
 		E1952D1E2212BC0600735D4B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		E1952D202212BC1800735D4B /* ReactiveExtensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtensiones.swift; sourceTree = "<group>"; };
+		E1952D262212C52200735D4B /* TracksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksTableViewCell.swift; sourceTree = "<group>"; };
+		E1952D272212C52200735D4B /* TracksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TracksTableViewCell.xib; sourceTree = "<group>"; };
+		E1952D2A2212C53900735D4B /* AlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1952D2B2212C53900735D4B /* AlbumsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1952D2E2212C58A00735D4B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E1952D2F2212C58A00735D4B /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		E1952D322212C5A000735D4B /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		E1952D332212C5A000735D4B /* MessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		E1952D362212C5CD00735D4B /* AnimateLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateLoadingView.swift; sourceTree = "<group>"; };
+		E1952D382212C5E600735D4B /* LoadingViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +130,10 @@
 		E1952D0F2212B3A700735D4B /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				E1952D252212C4E400735D4B /* TrackTableViewCell */,
+				E1952D242212C4E200735D4B /* AlbumCollectionViewCell */,
+				E1952D232212C4E000735D4B /* LoadingView */,
+				E1952D222212C4B400735D4B /* MessageView */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -158,6 +182,44 @@
 				E1952D1A2212BAE100735D4B /* Track.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E1952D222212C4B400735D4B /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				E1952D322212C5A000735D4B /* MessageView.swift */,
+				E1952D332212C5A000735D4B /* MessageView.xib */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		E1952D232212C4E000735D4B /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				E1952D2F2212C58A00735D4B /* LoadingView.xib */,
+				E1952D2E2212C58A00735D4B /* LoadingView.swift */,
+				E1952D362212C5CD00735D4B /* AnimateLoadingView.swift */,
+				E1952D382212C5E600735D4B /* LoadingViewable.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		E1952D242212C4E200735D4B /* AlbumCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E1952D2A2212C53900735D4B /* AlbumsCollectionViewCell.swift */,
+				E1952D2B2212C53900735D4B /* AlbumsCollectionViewCell.xib */,
+			);
+			path = AlbumCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E1952D252212C4E400735D4B /* TrackTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E1952D262212C52200735D4B /* TracksTableViewCell.swift */,
+				E1952D272212C52200735D4B /* TracksTableViewCell.xib */,
+			);
+			path = TrackTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +285,10 @@
 				E1952D072212B30300735D4B /* LaunchScreen.storyboard in Resources */,
 				E1952D042212B30300735D4B /* Assets.xcassets in Resources */,
 				E1952D022212B2F200735D4B /* Home.storyboard in Resources */,
+				E1952D312212C58A00735D4B /* LoadingView.xib in Resources */,
+				E1952D352212C5A000735D4B /* MessageView.xib in Resources */,
+				E1952D2D2212C53900735D4B /* AlbumsCollectionViewCell.xib in Resources */,
+				E1952D292212C52200735D4B /* TracksTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,15 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RxSwift+MVVM-checkManifestLockResult.txt",
 			);
@@ -256,8 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift+MVVM/Pods-RxSwift+MVVM-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -265,8 +325,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -286,11 +344,17 @@
 			files = (
 				E1952D212212BC1800735D4B /* ReactiveExtensiones.swift in Sources */,
 				E1952CFD2212B2F200735D4B /* AppDelegate.swift in Sources */,
+				E1952D2C2212C53900735D4B /* AlbumsCollectionViewCell.swift in Sources */,
+				E1952D302212C58A00735D4B /* LoadingView.swift in Sources */,
 				E1952D142212B42300735D4B /* HomeVC.swift in Sources */,
 				E1952D1F2212BC0600735D4B /* Network.swift in Sources */,
+				E1952D392212C5E600735D4B /* LoadingViewable.swift in Sources */,
+				E1952D342212C5A000735D4B /* MessageView.swift in Sources */,
 				E1952D192212B9EF00735D4B /* Album.swift in Sources */,
 				E1952D1D2212BBF700735D4B /* Extensiones.swift in Sources */,
 				E1952D1B2212BAE100735D4B /* Track.swift in Sources */,
+				E1952D282212C52200735D4B /* TracksTableViewCell.swift in Sources */,
+				E1952D372212C5CD00735D4B /* AnimateLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
