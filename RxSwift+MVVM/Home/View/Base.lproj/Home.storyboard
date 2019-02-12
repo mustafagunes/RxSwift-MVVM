@@ -12,7 +12,7 @@
         <!--HomeVC-->
         <scene sceneID="fyL-tE-Wu2">
             <objects>
-                <viewController storyboardIdentifier="home" id="I23-wC-HNk" customClass="HomeVC" customModule="MVVMRx" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" id="I23-wC-HNk" customClass="HomeVC" customModule="RxSwift_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0WS-w6-jYj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="5167" y="-135"/>
         </scene>
-        <!--View Controller-->
+        <!--Albums Collection ViewVC-->
         <scene sceneID="JDR-3I-vYy">
             <objects>
-                <viewController storyboardIdentifier="AlbumsCollectionViewVC" id="dQN-Kn-QIL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlbumsCollectionViewVC" id="dQN-Kn-QIL" customClass="AlbumsCollectionViewVC" customModule="RxSwift_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VqW-NT-C75">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="5953" y="-359"/>
         </scene>
-        <!--View Controller-->
+        <!--Tracks Table ViewVC-->
         <scene sceneID="Pyv-Be-t61">
             <objects>
-                <viewController storyboardIdentifier="TracksTableViewVC" id="7Tx-Zc-xni" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TracksTableViewVC" id="7Tx-Zc-xni" customClass="TracksTableViewVC" customModule="RxSwift_MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n1s-Uh-gAh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="317"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
