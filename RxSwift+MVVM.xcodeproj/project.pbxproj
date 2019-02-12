@@ -14,6 +14,9 @@
 		E1952D142212B42300735D4B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D132212B42300735D4B /* HomeVC.swift */; };
 		E1952D192212B9EF00735D4B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D182212B9EF00735D4B /* Album.swift */; };
 		E1952D1B2212BAE100735D4B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D1A2212BAE100735D4B /* Track.swift */; };
+		E1952D1D2212BBF700735D4B /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D1C2212BBF700735D4B /* Extensiones.swift */; };
+		E1952D1F2212BC0600735D4B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D1E2212BC0600735D4B /* Network.swift */; };
+		E1952D212212BC1800735D4B /* ReactiveExtensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D202212BC1800735D4B /* ReactiveExtensiones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		E1952D132212B42300735D4B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E1952D182212B9EF00735D4B /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		E1952D1A2212BAE100735D4B /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E1952D1C2212BBF700735D4B /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		E1952D1E2212BC0600735D4B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E1952D202212BC1800735D4B /* ReactiveExtensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtensiones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 		E1952D102212B3B700735D4B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E1952D1E2212BC0600735D4B /* Network.swift */,
+				E1952D1C2212BBF700735D4B /* Extensiones.swift */,
+				E1952D202212BC1800735D4B /* ReactiveExtensiones.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -198,9 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1952D212212BC1800735D4B /* ReactiveExtensiones.swift in Sources */,
 				E1952CFD2212B2F200735D4B /* AppDelegate.swift in Sources */,
 				E1952D142212B42300735D4B /* HomeVC.swift in Sources */,
+				E1952D1F2212BC0600735D4B /* Network.swift in Sources */,
 				E1952D192212B9EF00735D4B /* Album.swift in Sources */,
+				E1952D1D2212BBF700735D4B /* Extensiones.swift in Sources */,
 				E1952D1B2212BAE100735D4B /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
