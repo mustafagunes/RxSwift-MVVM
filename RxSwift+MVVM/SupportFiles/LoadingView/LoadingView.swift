@@ -21,12 +21,12 @@ class LoadingView: UIView {
         }
     }
     
-    public func startAnimating() {
+    public func startAnimation() {
         if animateView.isAnimating { return }
         animateView.startAnimating()
     }
     
-    public func stopAnimating() {
+    public func stopAnimation() {
         animateView.stopAnimating()
     }
     

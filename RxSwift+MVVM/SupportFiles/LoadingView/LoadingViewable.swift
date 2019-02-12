@@ -25,16 +25,17 @@ extension loadingViewable where Self: UIViewController {
         animateLoading.loadingViewMessage = "Loading"
         animateLoading.cornerRadius = 15
         animateLoading.clipsToBounds = true
-        animateLoading.startAnimating()
+        animateLoading.startAnimation()
     }
     
     func stopAnimating() {
-        for item in view.subviews where item.restorationIdentifier == "loadingView" {
-            UIView.animate(withDuration: 0.3, animations: {
-                item.alpha = 0
-            }) { (_) in
-                item.removeFromSuperview()
-            }
+        for item in view.subviews
+            where item.restorationIdentifier == "loadingView" {
+                UIView.animate(withDuration: 0.3, animations: {
+                    item.alpha = 0
+                }) { (_) in
+                    item.removeFromSuperview()
+                }
         }
     }
 }

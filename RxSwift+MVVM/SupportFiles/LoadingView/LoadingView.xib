@@ -13,7 +13,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="RxSwift_MVVM" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="P7q-qq-G4J" id="25h-bj-7ls"/>
+                <outlet property="animateView" destination="Ptl-Io-BU9" id="Eih-w0-VUi"/>
+                <outlet property="containerView" destination="P7q-qq-G4J" id="Fep-oH-1ww"/>
+                <outlet property="messageLabel" destination="LBF-UC-c5B" id="vz3-LS-vff"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -11,7 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageView" customModule="RxSwift_MVVM" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="Dt0-XM-m73" id="kJc-j6-keU"/>
+                <outlet property="containerView" destination="Dt0-XM-m73" id="9O0-Bb-zy5"/>
+                <outlet property="messageLabel" destination="xWS-AZ-4gL" id="SLQ-eQ-Obe"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
