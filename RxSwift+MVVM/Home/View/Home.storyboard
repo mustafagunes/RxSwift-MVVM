@@ -109,7 +109,7 @@
                         <viewLayoutGuide key="safeArea" id="ZNl-8E-RCN"/>
                     </view>
                     <connections>
-                        <outlet property="albumsCollectionView" destination="jvG-ac-ge6" id="g5T-G8-nTS"/>
+                        <outlet property="albumsCollectionView" destination="jvG-ac-ge6" id="tjM-3I-P0m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNi-R8-SVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,7 +138,7 @@
                         <viewLayoutGuide key="safeArea" id="hqz-d9-mjq"/>
                     </view>
                     <connections>
-                        <outlet property="tracksTableView" destination="wSq-Xd-ezv" id="vu4-pa-rAn"/>
+                        <outlet property="tracksTableView" destination="wSq-Xd-ezv" id="nwR-T3-5Rn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCI-kt-fv2" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -29,7 +29,7 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ptl-Io-BU9" customClass="AnimateloadingView" customModule="MVVMRx" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ptl-Io-BU9" customClass="AnimateLoadingView" customModule="RxSwift_MVVM" customModuleProvider="target">
                     <rect key="frame" x="37.5" y="37.5" width="75" height="75"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="Ptl-Io-BU9" secondAttribute="height" multiplier="1:1" id="6m6-T4-omG"/>
