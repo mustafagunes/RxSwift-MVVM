@@ -12,6 +12,8 @@
 		E1952D042212B30300735D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1952D032212B30300735D4B /* Assets.xcassets */; };
 		E1952D072212B30300735D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1952D052212B30300735D4B /* LaunchScreen.storyboard */; };
 		E1952D142212B42300735D4B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D132212B42300735D4B /* HomeVC.swift */; };
+		E1952D192212B9EF00735D4B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D182212B9EF00735D4B /* Album.swift */; };
+		E1952D1B2212BAE100735D4B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D1A2212BAE100735D4B /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E1952D062212B30300735D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1952D082212B30300735D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1952D132212B42300735D4B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E1952D182212B9EF00735D4B /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		E1952D1A2212BAE100735D4B /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		E1952D162212B45D00735D4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1952D182212B9EF00735D4B /* Album.swift */,
+				E1952D1A2212BAE100735D4B /* Track.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 			files = (
 				E1952CFD2212B2F200735D4B /* AppDelegate.swift in Sources */,
 				E1952D142212B42300735D4B /* HomeVC.swift in Sources */,
+				E1952D192212B9EF00735D4B /* Album.swift in Sources */,
+				E1952D1B2212BAE100735D4B /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
