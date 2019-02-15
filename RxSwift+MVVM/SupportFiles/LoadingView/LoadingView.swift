@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// LoadingView container kismi
 class LoadingView: UIView {
     
     // MARK : - Outlets

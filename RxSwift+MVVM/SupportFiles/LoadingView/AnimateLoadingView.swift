@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// LoadingView icindeki circle line
 class AnimateLoadingView: UIView {
     
     public var color: UIColor = UIColor.white
