@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0743D78F1973604DB134C56B /* Pods_RxSwift_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E91070F43E57B22DA76FE7 /* Pods_RxSwift_MVVM.framework */; };
+		E16CC4432216BC68002908AF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16CC4422216BC68002908AF /* HomeViewModel.swift */; };
 		E1952CFD2212B2F200735D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952CFC2212B2F200735D4B /* AppDelegate.swift */; };
 		E1952D042212B30300735D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1952D032212B30300735D4B /* Assets.xcassets */; };
 		E1952D072212B30300735D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1952D052212B30300735D4B /* LaunchScreen.storyboard */; };
@@ -27,7 +28,6 @@
 		E1952D352212C5A000735D4B /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1952D332212C5A000735D4B /* MessageView.xib */; };
 		E1952D372212C5CD00735D4B /* AnimateLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D362212C5CD00735D4B /* AnimateLoadingView.swift */; };
 		E1952D392212C5E600735D4B /* LoadingViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D382212C5E600735D4B /* LoadingViewable.swift */; };
-		E1952D3B2212DA6200735D4B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D3A2212DA6200735D4B /* HomeViewModel.swift */; };
 		E1952D3D2212DB5E00735D4B /* TracksTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D3C2212DB5E00735D4B /* TracksTableViewVC.swift */; };
 		E1952D3F2212DB6B00735D4B /* AlbumsCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1952D3E2212DB6B00735D4B /* AlbumsCollectionViewVC.swift */; };
 		E1952D412212E29100735D4B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1952D402212E29100735D4B /* Home.storyboard */; };
@@ -37,6 +37,7 @@
 		0BCE69019727688B63F56001 /* Pods-RxSwift+MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift+MVVM/Pods-RxSwift+MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		95E91070F43E57B22DA76FE7 /* Pods_RxSwift_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBB9964795500ABB1F5CC81 /* Pods-RxSwift+MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift+MVVM/Pods-RxSwift+MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		E16CC4422216BC68002908AF /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E1952CF92212B2F200735D4B /* RxSwift+MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift+MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1952CFC2212B2F200735D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1952D032212B30300735D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		E1952D332212C5A000735D4B /* MessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
 		E1952D362212C5CD00735D4B /* AnimateLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateLoadingView.swift; sourceTree = "<group>"; };
 		E1952D382212C5E600735D4B /* LoadingViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewable.swift; sourceTree = "<group>"; };
-		E1952D3A2212DA6200735D4B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		E1952D3C2212DB5E00735D4B /* TracksTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksTableViewVC.swift; sourceTree = "<group>"; };
 		E1952D3E2212DB6B00735D4B /* AlbumsCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewVC.swift; sourceTree = "<group>"; };
 		E1952D402212E29100735D4B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -91,6 +91,14 @@
 				CEBB9964795500ABB1F5CC81 /* Pods-RxSwift+MVVM.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E16CC4412216BC68002908AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E16CC4422216BC68002908AF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E1952CF02212B2F200735D4B = {
@@ -159,7 +167,7 @@
 			children = (
 				E1952D122212B3DD00735D4B /* View */,
 				E1952D162212B45D00735D4B /* Model */,
-				E1952D152212B44600735D4B /* ViewModel */,
+				E16CC4412216BC68002908AF /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -173,15 +181,6 @@
 				E1952D3E2212DB6B00735D4B /* AlbumsCollectionViewVC.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		E1952D152212B44600735D4B /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				E1952D3A2212DA6200735D4B /* HomeViewModel.swift */,
-			);
-			name = ViewModel;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E1952D162212B45D00735D4B /* Model */ = {
@@ -354,6 +353,7 @@
 				E1952D212212BC1800735D4B /* ReactiveExtensiones.swift in Sources */,
 				E1952CFD2212B2F200735D4B /* AppDelegate.swift in Sources */,
 				E1952D2C2212C53900735D4B /* AlbumsCollectionViewCell.swift in Sources */,
+				E16CC4432216BC68002908AF /* HomeViewModel.swift in Sources */,
 				E1952D302212C58A00735D4B /* LoadingView.swift in Sources */,
 				E1952D142212B42300735D4B /* HomeVC.swift in Sources */,
 				E1952D1F2212BC0600735D4B /* Network.swift in Sources */,
@@ -361,7 +361,6 @@
 				E1952D392212C5E600735D4B /* LoadingViewable.swift in Sources */,
 				E1952D342212C5A000735D4B /* MessageView.swift in Sources */,
 				E1952D192212B9EF00735D4B /* Album.swift in Sources */,
-				E1952D3B2212DA6200735D4B /* HomeViewModel.swift in Sources */,
 				E1952D3F2212DB6B00735D4B /* AlbumsCollectionViewVC.swift in Sources */,
 				E1952D1D2212BBF700735D4B /* Extensiones.swift in Sources */,
 				E1952D1B2212BAE100735D4B /* Track.swift in Sources */,
