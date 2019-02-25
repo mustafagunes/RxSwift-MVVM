@@ -18,7 +18,7 @@ CONTENT
     - [RxCocoa](https://github.com/ReactiveX/RxSwift) - CocoaTouch class use reactive
     - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - Best JSON library in swift
     
-2. **GIT - Versiyon Kontrol**
+2. **GIT - Version Control**
     - ```git add -A``` - Gets all the tracks in the file you're in.
     - ```git commit -m "<description>"``` - After the changes you made, the description is related to the version.
     - ```git push -u origin master``` - If you have done the above, you can send your project to Github, Gitlab and BitBucket with this command.
