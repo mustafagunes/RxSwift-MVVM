@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - UIView
 extension UIView {
-    func addBlurArea(area: CGRect, style: UIBlurEffectStyle) {
+    func addBlurArea(area: CGRect, style: UIBlurEffect.Style) {
         let effect = UIBlurEffect(style: style)
         let blurView = UIVisualEffectView(effect: effect)
         let container = UIView(frame: area)
@@ -27,7 +27,7 @@ extension UIView {
 extension UIViewController {
     public func add(asChildViewController viewController: UIViewController, to parentView: UIView) {
         // Add Child View Controller
-        addChildViewController(viewController)
+        addChild(viewController)
         
         // Add Child View as Subview
         parentView.addSubview(viewController.view)
@@ -37,18 +37,18 @@ extension UIViewController {
         viewController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
         // Notify Child View Controller
-        viewController.didMove(toParentViewController: self)
+        viewController.didMove(toParent: self)
     }
     
     public func remove(asChildViewController viewController: UIViewController) {
         // Notify Child View Controller
-        viewController.willMove(toParentViewController: nil)
+        viewController.willMove(toParent: nil)
         
         // Remove Child View From Superview
         viewController.view.removeFromSuperview()
         
         // Notify Child View Controller
-        viewController.removeFromParentViewController()
+        viewController.removeFromParent()
     }
 }
 

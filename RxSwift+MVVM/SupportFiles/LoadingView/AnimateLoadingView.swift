@@ -40,7 +40,7 @@ class AnimateLoadingView: UIView {
         
         let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation")
         rotationAnimation.byValue = Float.pi * 2
-        rotationAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        rotationAnimation.timingFunction = CAMediaTimingFunction(name: .linear)
         
         let strokeEndAnimation = CABasicAnimation(keyPath: "strokeEnd")
         strokeEndAnimation.duration = strokeEndDuration
@@ -61,7 +61,7 @@ class AnimateLoadingView: UIView {
         groupAnimation.duration = strokeStartDuration + beginTime
         groupAnimation.repeatCount = .infinity
         groupAnimation.isRemovedOnCompletion = false
-        groupAnimation.fillMode = kCAFillModeForwards
+        groupAnimation.fillMode = .forwards
         
         let circle = circleLayer(size: size, color: color)
         let frame = CGRect(

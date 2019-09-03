@@ -47,12 +47,12 @@ class LoadingView: UIView {
         containerView.frame = self.bounds
         containerView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         containerView.addBlurAreaForLoading(area: containerView.bounds, style: .dark)
-        containerView.bringSubview(toFront: messageLabel)
+        containerView.bringSubviewToFront(messageLabel)
     }
 }
 
 extension UIView {
-    func addBlurAreaForLoading(area: CGRect, style: UIBlurEffectStyle) {
+    func addBlurAreaForLoading(area: CGRect, style: UIBlurEffect.Style) {
         let effect = UIBlurEffect(style: style)
         let blurView = UIVisualEffectView(effect: effect)
         let container = UIView(frame: area)
